@@ -1,5 +1,9 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { cn } from "@/lib/utils";
+import SideNavbar from "@/components/SideNavbar";
+import { GlobalContextProvider } from "./context/store";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,7 +15,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={cn('min-h-screen w-full bg-white text-black flex', inter.className, { 'debug-screens': process.env.NODE_ENV === 'development' })}>
+
+        <SideNavbar />
+
+        {/* main page */}
+        <div className="p-8 w-full">
+          <GlobalContextProvider>
+            {children}
+          </GlobalContextProvider>
+        </div>
+      </body>
     </html>
   );
 }
