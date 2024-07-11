@@ -28,7 +28,7 @@ const chartConfig = {
 };
 
 export default function Questions() {
-    const { userQuest } = useGlobalContext(); // Use destructuring to get userQuest from context
+    const { userQuest } = useGlobalContext();
 
     return (
         <Card className="flex flex-col border rounded-lg pb-4 mb-4 shadow-md w-full ml-4">
@@ -39,7 +39,7 @@ export default function Questions() {
                     </div>
                     <div>
                         <span className="text-blue-700">
-                            {userQuest} / 15 {/* Display userQuest value */}
+                            {userQuest} / 15 
                         </span>
                     </div>
                 </CardTitle>
