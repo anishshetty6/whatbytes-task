@@ -1,8 +1,11 @@
+import PageHeader from '@/components/PageHeader'
 import React from 'react'
 
 function Intern() {
-  return (
+  return (<>
+    <PageHeader/>
     <div>Internships</div>
+  </>
   )
 }
 

@@ -67,3 +67,13 @@
       @apply bg-background text-foreground;
     }
   }
+  
+  :root {
+    --color-chrome: #4285F4;
+    --color-safari: #FF2D55;
+    --color-firefox: #FF7139;
+    --color-edge: #e91010;
+    --color-other: #01a32c;
+}
+
+  

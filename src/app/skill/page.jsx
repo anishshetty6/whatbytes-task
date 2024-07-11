@@ -1,18 +1,10 @@
-import Link from 'next/link'
 import React from 'react'
 import PageHeader from '@/components/PageHeader'
-import {
-    Card,
-    CardContent,
-    CardDescription,
-    CardFooter,
-    CardHeader,
-    CardTitle,
-} from "@/components/ui/card"
-
 import Test from '@/components/Test'
 import QuickStats from '@/components/QuickStats'
-
+import Overview from '@/components/Overview'
+import Syllabus from '@/components/Syllabus'
+import Questions from '@/components/Questions'
 
 function Skillspage() {
 
@@ -21,27 +13,17 @@ function Skillspage() {
         <>
 
             <PageHeader />
-            <h3 className='ml-4 mt-4'>Skill Test</h3>
-            <div className='flex flex-col sm:flex-row gap-5 w-full'>
+            <h2 className='ml-4 mt-4'>Skill Test</h2>
+            <div className='flex flex-col sm:flex-row gap-5 flex-grow'>
                 <div>
-                    <div className='m-4'>
-                        <Test />
-                    </div>
+                    <Test />
                     <QuickStats />
-
-                    <Card>
-                        <CardHeader>
-                            <CardTitle>Card Title</CardTitle>
-                            <CardDescription>Card Description</CardDescription>
-                        </CardHeader>
-                        <CardContent>
-                            <p>Card Content</p>
-                        </CardContent>
-
-                    </Card>
-
+                    <Overview />
                 </div>
-                <div>right</div>
+                <div>
+                    <div><Syllabus/></div>
+                    <div><Questions/></div>
+                </div>
             </div>
 
         </>
