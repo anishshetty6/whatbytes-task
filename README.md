@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Video
 
-## Getting Started
+https://drive.google.com/file/d/1-ls_s6E9U5WIEo_XWgu_zCIjGyk7heua/view?usp=sharing
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Images
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![Screenshot 2024-07-11 203112](https://github.com/anishshetty6/whatbytes-task/assets/71397185/515224c3-ea93-4f83-8f09-4752a244f9b1)
+![Screenshot 2024-07-11 203124](https://github.com/anishshetty6/whatbytes-task/assets/71397185/023789e1-5f70-45a6-ab9d-061d3c495594)
+![Screenshot 2024-07-11 203147](https://github.com/anishshetty6/whatbytes-task/assets/71397185/62ad0b45-6531-4e05-81e4-603522734541)
+![Screenshot 2024-07-11 203204](https://github.com/anishshetty6/whatbytes-task/assets/71397185/eb5cb097-fac5-403b-b8cf-b01b48836ba3)
+![Screenshot 2024-07-11 203424](https://github.com/anishshetty6/whatbytes-task/assets/71397185/a68b247b-3b05-4b9e-9279-5890303a27e7)
+![Screenshot 2024-07-11 203445](https://github.com/anishshetty6/whatbytes-task/assets/71397185/7d598cce-67f9-407e-a787-afd8b54fe59d)
+![Screenshot 2024-07-11 203457](https://github.com/anishshetty6/whatbytes-task/assets/71397185/e9c0c606-86a8-4760-99cf-5b5b734a39fd)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
