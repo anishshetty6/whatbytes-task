@@ -1,6 +1,4 @@
-## Video
 
-https://drive.google.com/file/d/1-ls_s6E9U5WIEo_XWgu_zCIjGyk7heua/view?usp=sharing
 
 
 ## Images
